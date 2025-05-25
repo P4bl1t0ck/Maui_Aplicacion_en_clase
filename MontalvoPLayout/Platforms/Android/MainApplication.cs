@@ -11,6 +11,6 @@ namespace MontalvoPLayout
         {
         }
 
-        protected override MauiApp CreateMauiApp() => MauiProgram.CreateMauiApp();
+        protected override MauiApp CreateMauiApp() => Stack.CreateMauiApp();
     }
 }

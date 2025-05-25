@@ -9,6 +9,7 @@ public partial class Demo : ContentPage
 
     private void IrMainPage_Clicked(object sender, EventArgs e)
     {
+		//Navigation.PopAsync();
 		Navigation.PushAsync(new MainPage());
     }
 }

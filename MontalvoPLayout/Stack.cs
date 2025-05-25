@@ -2,7 +2,8 @@
 
 namespace MontalvoPLayout
 {
-    public static class MauiProgram
+    public static class Stack
+
     {
         public static MauiApp CreateMauiApp()
         {
