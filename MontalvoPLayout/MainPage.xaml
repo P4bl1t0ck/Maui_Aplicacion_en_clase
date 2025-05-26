@@ -13,26 +13,25 @@
                 <ColumnDefinition />
                 <ColumnDefinition />
             </Grid.ColumnDefinitions>
-            <BoxView Color="Green" />
-            <Label Text="Row 0, Column 0"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" />
-            <BoxView Grid.Column="1"
-                 Color="Blue" />
-            <Label Grid.Column="1"
-               Text="Row 0, Column 1"
-               HorizontalOptions="Center"
-               VerticalOptions="Center" />
-            <BoxView Grid.Row="1"
-                 Color="Teal" />
-            <Label Grid.Row="1"
-               Text="Row 1, Column 0"
-               HorizontalOptions="Center"
-               VerticalOptions="Center"/>
-            <Button 
-                x:Name="BotonStack"
-                Text="IrStack"
-                Clicked="BotonStack_Clicked"/>
+
+            <Image Source="gatogatogato.jpg"
+           Grid.Row="0" Grid.Column="0"
+           Aspect="AspectFill" />
+
+            <Image Source="yx3uo3mndz2f1.jpeg"
+           Grid.Row="0" Grid.Column="1"
+           Aspect="AspectFill" />
+
+
+            <Image Source="marmota.jpg"
+           Grid.Row="1" Grid.Column="0"
+           Aspect="AspectFill" />
+            
+            <Button Grid.Row="2" 
+                    Grid.Column="2" 
+            x:Name="BotonStack"
+            Text="IrStack"
+            Clicked="BotonStack_Clicked"/>
         </Grid>
     </ScrollView>
 </ContentPage>

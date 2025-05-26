@@ -4,19 +4,26 @@
              x:Class="MontalvoPLayout.NewPage1"
              Title="NewPage1">
     <StackLayout Margin="20">
-        <Label Text="Primary colors" />
-        <BoxView Color="Red"
-                 HeightRequest="40" />
-        <BoxView Color="Yellow"
-                 HeightRequest="40" />
-        <BoxView Color="Blue"
-                 HeightRequest="40" />
-        <Label Text="Secondary colors" />
-        <BoxView Color="Green"
-                 HeightRequest="40" />
-        <BoxView Color="Orange"
-                 HeightRequest="40" />
-        <BoxView Color="Purple"
-                 HeightRequest="40" />
+        <Image Source="jeje.jpg"
+           HeightRequest="300"
+           WidthRequest="300"
+           HorizontalOptions="Center" />
+        <Label Text="Pablo Montalvo"
+               FontSize="36"
+               TextColor="Green"
+               HorizontalOptions="Center"/>
+        <Label Text="Montalvo"
+           FontSize="36"
+           HorizontalOptions="Center" />
+        <Label Text="Dato curioso: Las marmotas pueden silbar para alertar de peligro."
+           FontSize="45"
+           FontFamily="Comic Sans MS"
+           HorizontalOptions="Center"
+           TextColor="DarkSlateBlue" />
+        <Button
+            x:Name="BotonFlex"
+            Text="IrFlex"
+            Clicked="BotonFlex_Clicked">
+        </Button>
     </StackLayout>
 </ContentPage>

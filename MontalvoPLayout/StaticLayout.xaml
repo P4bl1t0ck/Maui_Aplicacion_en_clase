@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MontalvoPLayout.StaticLayout"
+             Title="StaticLayout">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <AbsoluteLayout>
+            <Image Source="jeje.jpg"
+           AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.3, 0.3"
+           AbsoluteLayout.LayoutFlags="All" />
+
+            <!-- Imagen en el lado izquierdo (centro vertical) -->
+            <Image Source="heavy.jpg"
+           AbsoluteLayout.LayoutBounds="0, 0.5, 0.2, 0.2"
+           AbsoluteLayout.LayoutFlags="All" />
+
+            <!-- Imagen en el lado derecho (centro vertical) -->
+            <Image Source="haha.jpg"
+           AbsoluteLayout.LayoutBounds="1, 0.5, 0.2, 0.2"
+           AbsoluteLayout.LayoutFlags="All" />
+        </AbsoluteLayout>
+    </VerticalStackLayout>
+    <Button Grid.Row="2" 
+        Grid.Column="2" 
+        x:Name="BotonStack"
+        Text="IrInicio"
+        Clicked="BotonStack_Clicked"
+        />
+</ContentPage>

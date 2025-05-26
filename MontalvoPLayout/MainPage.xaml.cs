@@ -9,6 +9,7 @@
         public MainPage()
         {
             InitializeComponent();
+
         }
 
         //Boton ir a demo 
@@ -17,6 +18,7 @@
             //Not  tiene dato de retorno por eso no ponemo un await
             Navigation.PushAsync(new Demo());
         }
+
 
         private void BotonStack_Clicked(object sender, EventArgs e)
         {

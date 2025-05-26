@@ -7,4 +7,8 @@ public partial class NewPage1 : ContentPage
 		InitializeComponent();
 	}
 
+    private void BotonFlex_Clicked(object sender, EventArgs e)
+    {
+		Navigation.PushAsync(new flexPage());
+    }
 }
