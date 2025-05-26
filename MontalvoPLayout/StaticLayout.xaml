@@ -23,11 +23,10 @@
            AbsoluteLayout.LayoutBounds="1, 0.5, 0.2, 0.2"
            AbsoluteLayout.LayoutFlags="All" />
         </AbsoluteLayout>
+        <Button 
+    x:Name="BotonStack"
+    Text="IrInicio"
+    Clicked="BotonStack_Clicked"
+    />
     </VerticalStackLayout>
-    <Button Grid.Row="2" 
-        Grid.Column="2" 
-        x:Name="BotonStack"
-        Text="IrInicio"
-        Clicked="BotonStack_Clicked"
-        />
 </ContentPage>
